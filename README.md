@@ -18,7 +18,7 @@ A basic 3D product viewer built with **Three.js** and **Vite**. Displays a simpl
 ## Getting Started
 
 ```bash
-git clone https://github.com/yourusername/3d-product-viewer.git
+git clone https://github.com/saron03/3d-product-viewer.git
 cd 3d-product-viewer
 npm install
 npm run dev
