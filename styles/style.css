@@ -1,0 +1,23 @@
+/* Remove scrollbars, set font */
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+
+/* Make canvas fill screen */
+canvas {
+  display: block;
+}
+
+/* Info panel for showing part name */
+#info-panel {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: rgba(0, 0, 0, 0.7);
+  color: pink;
+  padding: 8px 12px;
+  border-radius: 6px;
+  display: none;
+}
