@@ -9,6 +9,7 @@ let scene, camera, renderer, controls, productGroup;
 export function initScene(THREE, OrbitControls) {
   // Create a new Three.js scene
   scene = new THREE.Scene();
+  scene.background = new THREE.Color(0x101020); // Very dark space blue for the scene background
   const canvas = document.getElementById('product-canvas');
 
   // Set up perspective camera with field of view, aspect ratio, near and far planes
