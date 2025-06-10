@@ -1,13 +1,15 @@
 # 3D Product Viewer
 
-A basic 3D product viewer built with **Three.js** and **Vite**. Displays a simple chair model with interactive part selection and camera animation.
+An interactive 3D product viewer built with **Three.js** and **Vite**, showcasing a glowing sci-fi energy core suspended in metallic support rings. Users can explore the model with camera controls and interactive part feedback.
 
 ## Features
 
-- Interactive 3D chair with clickable parts
-- Highlight on click + part name display
-- Auto-rotating camera
-- Orbit controls (pan, zoom, rotate)
+- Glowing, animated energy core
+- Metallic support rings (X/Y/Z axis-aligned)
+- Clickable parts with hover + name display
+- Auto-rotating camera animation
+- Smooth orbit controls (pan, zoom, rotate)
+- Responsive layout and performance-optimized
 
 ## Tech Stack
 
@@ -22,3 +24,6 @@ git clone https://github.com/saron03/3d-product-viewer.git
 cd 3d-product-viewer
 npm install
 npm run dev
+```       
+
+
