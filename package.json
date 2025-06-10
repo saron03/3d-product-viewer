@@ -4,12 +4,11 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "prebuild": "chmod +x node_modules/.bin/vite",
-  "preview": "vite preview"
-},
-
+    "dev": "vite",
+    "build": "vite build",
+    "prebuild": "chmod +x node_modules/.bin/vite",
+    "preview": "vite preview"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/saron03/3d-product-viewer.git"
@@ -22,7 +21,7 @@
   },
   "homepage": "https://github.com/saron03/3d-product-viewer#readme",
   "devDependencies": {
-    "vite": "^6.3.5"
+    "vite": "^4.5.14"
   },
   "dependencies": {
     "three": "^0.177.0"
